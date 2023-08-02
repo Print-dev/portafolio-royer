@@ -7,7 +7,7 @@ import {IoMdMail} from 'react-icons/io'
 import Aboutme from './components/Aboutme'
 import Contacto from './components/Contacto'
 import Proyectos from './components/Proyectos'
-import cv from './assets/cv/cv.pdf'
+import CVroyer from './assets/cv/CVroyer.pdf'
 import { saveAs } from 'file-saver';
 import royer from './assets/img/royer.png'
 
@@ -50,7 +50,7 @@ function App() {
                             <a href="https://www.tiktok.com/@printdev"><FaTiktok className='red w-12 h-12 text-white-500 cursor-pointer'/></a>                                                                
                         </div>
                         <div className="contenedor-cv">
-                            <button onClick={()=>{saveAs(cv, "CV-RoyerAlexisAvalosRomero.pdf")}}>Descargar CV</button>
+                            <button onClick={()=>{saveAs(CVroyer, "CV-RoyerAlexisAvalosRomero.pdf")}}>Descargar CV</button>
                         </div>
                     </div>
                 </div>
