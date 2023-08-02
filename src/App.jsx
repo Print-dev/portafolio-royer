@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillYoutube, AiFillLinkedin } from "react-icons/ai"
 import {FaTiktok} from 'react-icons/fa'
 import {BsFillPersonFill, BsFillBoxFill, BsBarChartLineFill} from 'react-icons/bs'
 import {IoMdMail} from 'react-icons/io'
-
+import Aboutme from './components/Aboutme'
 import Contacto from './components/Contacto'
 import Proyectos from './components/Proyectos'
 import { saveAs } from 'file-saver';
@@ -18,7 +18,9 @@ function App() {
             <div className="contenedor-secciones">
                 <nav>
                     <ul>
-                                           
+                        <div>
+                            <BsFillPersonFill className="icon-info w-16 h-16 text-white-500 cursor-pointer " data-modal-target="sobremi" data-modal-toggle="sobremi" type="button"/>                            
+                        </div>                        
                         <div>
                             <IoMdMail className="icon-info w-16 h-16 text-white-500 cursor-pointer" data-modal-target="contacto" data-modal-toggle="contacto" type="button"/>
                         </div>
@@ -32,7 +34,7 @@ function App() {
             <div className="texto-lorem">    
                 <div className='flex flex-col justify-center items-center p-5'>
                         {"/src/assets/" && <img src="src/assets/royer.png" className='imagen rounded-full m-5' /> }
-                    <h2 className='titulo'>YOOO</h2>
+                    <h2 className='titulo'>Royer</h2>
                     <div className="informacion">
                         <p>Programador Web Fullstack</p>
                     </div>
@@ -52,7 +54,7 @@ function App() {
                 </div>
             </div>
 
-            
+            <Aboutme/>
             <Contacto/>
             <Proyectos/>
            
