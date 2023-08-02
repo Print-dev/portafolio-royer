@@ -33,7 +33,7 @@ function App() {
     
             <div className="texto-lorem">    
                 <div className='flex flex-col justify-center items-center p-5'>
-                    <img src="/src/img/royer.jpeg" alt=""  className='imagen rounded-full m-5' />            
+                        {"/src/assets/" && <img src="src/assets/royer.png" className='imagen rounded-full m-5' /> }
                     <h2 className='titulo'>Royer</h2>
                     <div className="informacion">
                         <p>Programador Web Fullstack</p>
@@ -48,7 +48,7 @@ function App() {
                             <a href="https://www.tiktok.com/@printdev"><FaTiktok className='red w-12 h-12 text-white-500 cursor-pointer'/></a>                                                                
                         </div>
                         <div className="contenedor-cv">
-                            <button onClick={()=>{saveAs("/src/cv/CV-RoyerAvalos.pdf", "CV-RoyerAlexisAvalosRomero.pdf")}}>Descargar CV</button>
+                            <button onClick={()=>{{"/src/assets/" && saveAs("src/assets/CV-RoyerAvalos.pdf", "CV-RoyerAlexisAvalosRomero.pdf")}}}>Descargar CV</button>
                         </div>
                     </div>
                 </div>
