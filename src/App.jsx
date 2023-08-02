@@ -7,7 +7,7 @@ import {IoMdMail} from 'react-icons/io'
 import Aboutme from './components/Aboutme'
 import Contacto from './components/Contacto'
 import Proyectos from './components/Proyectos'
-import cv from './assets/cv/cv.pdf'
+import cv from './assets/cv/CV.pdf'
 import { saveAs } from 'file-saver';
 import royer from './assets/img/royer.png'
 
