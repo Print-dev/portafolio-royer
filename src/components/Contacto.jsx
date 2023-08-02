@@ -10,7 +10,7 @@ function Contacto() {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current, import.meta.env.VITE_PUBLIC_KEY)
+      emailjs.sendForm('service_fnx2s9l', 'template_8p0yfxq', form.current, 'exWcFaG5lzRbc8_qw')
         .then((result) => {
             toast.success("mensaje enviado!", {duration:10000})
             console.log(result.text);
