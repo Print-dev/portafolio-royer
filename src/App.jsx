@@ -32,7 +32,7 @@ function App() {
             <div className="texto-lorem">    
                 <div className='flex flex-col justify-center items-center p-5'>
                         {"/src/assets/" && <img src="src/assets/royer.png" className='imagen rounded-full m-5' /> }
-                    <h2 className='titulo'>Royer</h2>
+                    <h2 className='titulo'>YOOO</h2>
                     <div className="informacion">
                         <p>Programador Web Fullstack</p>
                     </div>
