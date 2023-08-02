@@ -1,5 +1,6 @@
 import React from 'react'
 import { Modal } from 'flowbite'
+import proyecto1 from '../assets/img/proyecto1.png'
 
 function Proyectos() {
   return (
@@ -24,7 +25,7 @@ function Proyectos() {
                 
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="https://freedatabase.netlify.app">
-                        <img className="rounded-t-lg" src="src/assets/proyecto1.png"/>
+                        <img className="rounded-t-lg" src={proyecto1}/>
                     </a>
                     <div className="p-5">
                         <a href="#">
