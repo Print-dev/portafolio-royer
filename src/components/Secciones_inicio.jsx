@@ -1,4 +1,4 @@
-import '../styles/Aboutme.css'
+import '../assets/styles/Aboutme.css'
 import { saveAs } from 'file-saver';
 import royer from '../assets/img/royer.png'
 import { AiFillGithub, AiFillYoutube, AiFillLinkedin } from "react-icons/ai"

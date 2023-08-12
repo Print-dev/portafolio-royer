@@ -1,4 +1,4 @@
-import '../styles/Encabezado.css'
+import '../assets/styles/Encabezado.css'
 import {BsFillPersonFill, BsFillBoxFill, BsBarChartLineFill} from 'react-icons/bs'
 import {IoMdMail} from 'react-icons/io'
 import {Link} from 'react-router-dom'
