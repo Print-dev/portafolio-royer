@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url("/src/assets/img/fondo.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.inicio{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-secciones{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-secciones nav ul .icon-info{
+  
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: #000000;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  transition: .1s;
+}
+
+.contenedor-secciones nav ul div:hover .icon-info{
+  background-color: #333333;
+  color: white;
+  box-shadow: 0px 1px 41px 6px rgba(244,255,141,0.57);
+  -webkit-box-shadow: 0px 1px 41px 6px rgba(244,255,141,0.57);
+  -moz-box-shadow: 0px 1px 41px 6px rgba(244,255,141,0.57);
+}
