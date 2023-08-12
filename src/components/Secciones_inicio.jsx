@@ -1,10 +1,10 @@
-import React from 'react'
+import '../styles/Aboutme.css'
 import { saveAs } from 'file-saver';
 import royer from '../assets/img/royer.png'
 import { AiFillGithub, AiFillYoutube, AiFillLinkedin } from "react-icons/ai"
 import {FaTiktok} from 'react-icons/fa'
 import CVroyer from '../assets/cv/CVroyer.pdf'
-import '../styles/Aboutme.css'
+
 
 function Secciones_inicio() {
   return (
