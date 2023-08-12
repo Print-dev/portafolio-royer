@@ -3,7 +3,7 @@ import { saveAs } from 'file-saver';
 import royer from '../assets/img/royer.png'
 import { AiFillGithub, AiFillYoutube, AiFillLinkedin } from "react-icons/ai"
 import {FaTiktok} from 'react-icons/fa'
-import '../styles/aboutme.css'
+import '../styles/Aboutme.css'
 import CVroyer from '../assets/cv/CVroyer.pdf'
 
 function Secciones_inicio() {
