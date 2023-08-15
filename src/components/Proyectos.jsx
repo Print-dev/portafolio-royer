@@ -5,7 +5,7 @@ import proyecto2 from '../assets/img/cartilla.jpg'
 function Proyectos() {
   return (
 
-    <div className='p-5 bg-purple-500/30 flex flex-row'>
+    <div className='p-5 bg-purple-500/30 flex flex-col lg:flex-row'>
         <div className="p-4 m-2 rounded-3xl space-y-6 flex items-center justify-center backdrop-blur-sm bg-white/30">                            
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="https://freedatabase.netlify.app">
